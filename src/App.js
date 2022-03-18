@@ -1,12 +1,13 @@
 /* Importações */
 import TelaInicial from "./Componentes/TelaInicial"
-//import TelaPergunta from "./Componentes/TelaPergunta"
+import TelaPergunta from "./Componentes/TelaPergunta"
 
 
 export default function App(){
-    return(
+    return( 
         <main>
             <TelaInicial />
+            <TelaPergunta />
         </main>
     )
 }
