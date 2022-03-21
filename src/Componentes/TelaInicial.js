@@ -5,7 +5,12 @@ export default function TelaInicial(){
                 <img src="assets/logo.png" alt="raio"></img>
                 <h1>ZapRecall</h1>
             </section>
-            <button>Iniciar Recall!</button>
+            <button className="butao" onClick={fade} >Iniciar Recall!</button>
         </article>
     )
+}
+
+function fade(){
+    let container = document.querySelector(".container")
+    container.classList.toggle("fade")
 }
